@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="js/script.js"></script>
+    <title>YouTube</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="container">
+          <div class="left-nav">
+            <i class="fas fa-bars menu" onclick="menuToggle()"></i>
+            <div class="logo">
+              <i class="fab fa-youtube"></i>
+              <p>YouTube</p>
+            </div>
+          </div>
+          <div class="center-nav">
+            <div class="search-div">
+              <input
+                type="text"
+                name=""
+                class="search"
+                id=""
+                placeholder="Search"
+              />
+              <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <i class="fas fa-microphone"></i>
+          </div>
+          <div class="right-div">
+            <i class="fas fa-th"></i>
+            <i class="fas fa-ellipsis-v"></i>
+            <div class="user-btn">
+              <i class="fas fa-user-circle"></i>
+              <p>Sign In</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="sidebar-sm" id="sidebar-small">
+          <div class="sidebar-sm-item active">
+            <i class="fas fa-home"></i>
+            <p>Home</p>
+          </div>
+          <div class="sidebar-sm-item">
+            <i class="fas fa-fire"></i>
+            <p>Trending</p>
+          </div>
+          <div class="sidebar-sm-item">
+            <i class="fas fa-video"></i>
+            <p>Subscribe</p>
+          </div>
+          <hr />
+          <div class="sidebar-sm-item">
+            <i class="fa fa-photo-video"></i>
+            <p>Library</p>
+          </div>
+          <div class="sidebar-sm-item">
+            <i class="fas fa-history"></i>
+            <p>History</p>
+          </div>
+        </div>
+        <div class="sidebar" id="sidebar-big">
+          <div class="sidebar-item active">
+            <i class="fas fa-home"></i>
+            <p>Home</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fas fa-fire"></i>
+            <p>Trending</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fas fa-video"></i>
+            <p>Subscriptions</p>
+          </div>
+          <hr />
+          <div class="sidebar-item">
+            <i class="fa fa-photo-video"></i>
+            <p>Library</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fas fa-history"></i>
+            <p>History</p>
+          </div>
+          <hr />
+          <div class="sidebar-item">
+            <i class="fa fa-music"></i>
+            <p>Music</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa fa-broadcast-tower"></i>
+            <p>Live</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa fa-dumbbell"></i>
+            <p>Sports</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa fa-photo-video"></i>
+            <p>Library</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fas fa-history"></i>
+            <p>History</p>
+          </div>
+          <hr />
+          <div class="sidebar-item">
+            <i class="fa fa-music"></i>
+            <p>Music</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa fa-broadcast-tower"></i>
+            <p>Live</p>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa fa-dumbbell"></i>
+            <p>Sports</p>
+          </div>
+        </div>
+        <div class="mainbar">
+          <div class="tag-nav">
+            <a href="#">All</a>
+            <a href="#">Natok</a>
+            <a href="#">Web</a>
+            <a href="#">HTML</a>
+            <a href="#">Song</a>
+            <a href="#">Science</a>
+            <a href="#">Trending</a>
+            <a href="#">Natok</a>
+            <a href="#">Web</a>
+            <a href="#">HTML</a>
+            <a href="#">Song</a>
+          </div>
+          <div class="video-container">
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/1.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/2.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/3.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/4.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/5.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/6.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/7.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/1.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/2.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/3.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/4.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/5.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/6.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+            <div class="video">
+              <div class="thumbnail">
+                <img src="img/vid/7.png" alt="" />
+                <div class="video-over-items">
+                  <i class="fas fa-clock"></i>
+                  <i class="fas fa-list"></i>
+                </div>
+                <div class="video-over-time">
+                  <p>3:22</p>
+                </div>
+              </div>
+              <div class="video-info">
+                <div class="channel">
+                  <img src="img/vid/1.png" alt="" />
+                </div>
+                <div class="video-text">
+                  <h1 class="title">Tailwind CSS Tutorial #14 - Icons</h1>
+                  <p class="ch-name">Net Ninja</p>
+                  <div class="stats">
+                    <p class="view">13K Views</p>
+                    <i class="fa fa-circle"></i>
+                    <p class="time">7 Months ago</p>
+                  </div>
+                </div>
+                <i class="video-bar fa fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
