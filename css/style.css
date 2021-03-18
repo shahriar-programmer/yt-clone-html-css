@@ -181,13 +181,13 @@ main {
     main .mainbar::-webkit-scrollbar {
       display: none; }
     main .mainbar .tag-nav {
-      max-height: 50px;
-      padding: 5px 0;
+      height: 50px;
+      padding: 10px 0;
       border-bottom: 1px solid #333;
-      overflow: scroll;
-      margin: auto;
       position: sticky;
       display: flex;
+      align-items: center;
+      justify-content: space-around;
       top: 0;
       z-index: 10;
       background-color: #202020; }
